@@ -1,0 +1,67 @@
+About Jonpaul:
+Jonpaul is currently a data science engineer at innovative healthcare company Virtuwell; previously he worked as a data scientist at Daugherty Business Solutions, a data modeler and engineer for KPMG, a Python developer for a FinTech startup as well as an instructor for Galvanize's Python course for aspiring data scientists.
+
+Jonpaul has worked on all aspects of the full stack data science project, from data acquisition and storage, ETL processes, modeling and machine learning, automation and testing, and finally visual story telling and reporting.  Last, he has also managed data science teams working to achieve real results for real clients.
+
+
+
+
+Work Experience:
+Virtuwell Healtcare (2023)
+Daugherty Business Solutions (2022-2023)
+KPMG (2018-2022)
+Pellucid Analytics (2017)
+Galvanize, Inc. (2017)
+
+
+Career Goal:
+Improve the world by using data.  Nothing too major...
+
+
+Skills:
+* Python & Visualization (Plotly/Dash, Altair, Tableau, Seaborn)
+* Machine Learning and Data Modeling
+* Data Pipeline Engineering and Validation
+* SQL, Hive/Hadoop, PySpark
+* AWS
+* Web Scraping
+* Git, DevOps
+* Project management and organization
+* Understanding client needs and prioritization
+* Effective at relaying complex and technical subjects to a general audience, verbally or written. 
+
+Certification:
+* AWS Cloud Technical Essentials (2021)
+* Managing, Describing, and Analyzing Data with R (2021)
+* Python and Spark for Big Data (2018)
+* Web Development for Data Scientists (2017)
+* Using Databases with Python (2016)
+* Managing Big Data with MySQL (2016)
+* An Introduction to Interactive Programming in Python (2015)
+* Using Python to Access Web Data (2015)
+
+
+Achievements:
+* Lead domestic senior data scientist for an international healthcare client optimizing and expanding one of their AWS-based data and ML pipelines, including Python to PySpark, Athena, S3, and AWSWrangler.
+* Optimized existing AWS SageMaker workflow of 25M+ weekly records to run in four hours instead of thirteen, saving up to $10,000+ monthly.
+* Lead Data Scientist and Data Engineer with international telecom and pharmaceutical clients, focused on modeling, codebase migration, data pipeline construction, automation, and validation, fraud detection, and multiple platform integration (Python, SQL, Hive/HQL, Alteryx, Tableau).
+* Data Modeler and Engineer for advanced, geolocation-based signal-generation data repository (see link below).
+* Lead Data Scientist for compliance testing via database validation, query, and reporting for electronic payments client.
+* Data Scientist for national banking client on NLP project (OCR, content extraction, reporting).
+* Manager for a novel web-app NLP solution for a national insurance client, orchestrating off-shore dev team, internal dev team, and client.
+* Technical consultant on data systems migration and validation for national banking client.
+* Lead creative role on HR analytics solution (developed client-centric storyboard and pitched to client).
+* Recruiter for select Midwest universities and technical interviewer/evaluator for Data & Analytics candidates.
+
+Contact:
+LinkedIn: https://www.linkedin.com/in/jp-wright
+Phone: 940-781-7602
+Location: Denver, CO
+
+Interests and Hobbies:
+Jonpaul am fortunate enough to have traveled a good deal as well as lived abroad, giving him an appreciation for different approaches to life and problem solving.  Data, tech, science, fitness/nutrition, football, writing, the great outdoors, and educating are things that drive him.  Past and current passions include SCUBA, guitar/music recording, wood working, travel, and cooking. Jonpaul's kids keep him young and never let him think I'm too cool.
+Jonpaul believes that mental approach to life determines outcomes more than any other factor....
+
+Availability:
+Jonpaul is actively seeking new opportunities and is ready to start immediately.
+
