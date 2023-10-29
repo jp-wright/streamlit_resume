@@ -6,7 +6,7 @@ info = {
 #    "Tableau":"https://public.tableau.com/app/profile/vickytc/viz/SunnybrookTeam/Overview",
 #    "Medium":"https://medium.com/@vicky-note/about",
    "City":"Denver, CO",
-   "Photo": """<a href=\"https://www.linkedin.com/in/jp-wright/\"><img src=\"https://jp-resumes.s3.amazonaws.com/jpgalvbnw.jpg" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a>""",
+   "Photo": """<a href=\"https://www.linkedin.com/in/jp-wright/\"><img src=\"https://avatars.githubusercontent.com/u/14065301?v=4" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a>""",
    "Email": "jonpaul.wright@icloud.com"
 }
 ## github avatar
