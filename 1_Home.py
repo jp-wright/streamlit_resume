@@ -242,7 +242,8 @@ with st.container():
             <!-- Slideshow container -->
             <div class="slideshow-container">
                 <div class="mySlides fade">
-                <img src={endorsements["img1"]} style="width:100%">
+                <img src="https://github.com/jp-wright/streamlit_resume/blob/main/.github/images/jpw_endorsement_bvh.jpg" style="width:100%">
+                /* <img src={endorsements["img1"]} style="width:100%"> */
                 </div>
 
                 <div class="mySlides fade">
