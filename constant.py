@@ -24,9 +24,9 @@ info = {
 # }
 
 endorsements = {
-    "img1": "https://github.com/jp-wright/streamlit_resume/blob/main/endorsements/jpw_endorsement_bvh.jpg",
-    "img2": "https://github.com/jp-wright/streamlit_resume/blob/main/endorsements/jpw_endorsement_bvh.jpg",
-    "img3": "https://github.com/jp-wright/streamlit_resume/blob/main/endorsements/jpw_endorsement_bvh.jpg"
+    "img1": "https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/jpw_endorsement_bvh.png",
+    "img2": "https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/jpw_endorsement_eg.jpg",
+    "img3": "https://user-images.githubusercontent.com/14065301/278880247-048908a7-fa09-4aa3-8723-d2c4cbb0b3da.png"
     # "img1": "https://www.dropbox.com/scl/fi/wyel17y4eb34k5wla7oyn/jpw_endorsement_bvh.jpg?rlkey=s4ehfu8ggjol7gxwuyyngxihg&dl=0",
     # "img2": "https://www.dropbox.com/scl/fi/q05qh4zvqv9jyl8kg6q4u/jpw_endorsement_eg.jpg?rlkey=ypbn6ot208zuzxwhe1gki9xaj&dl=0",
     # "img3": "https://www.dropbox.com/scl/fi/9ia1vclypa4wlwhnzrpxa/jpw_endorsement_fp.jpg?rlkey=k8ni4aqqpw0qqind679c86fbr&dl=0"
