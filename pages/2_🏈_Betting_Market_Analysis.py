@@ -21,7 +21,7 @@ def show_logo(name: str, width: int=100, height: int=100):
 
 # st.write("""<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*cyXCE-JcBelTyrK-58w6_Q.png" width=200 height=100>""", unsafe_allow_html=True)
 
-st.markdown("""<img src=\"https://drive.google.com/file/d/1uuEe0kbFaf_FlnBg65HXw4LtWsYOucfv/view?usp=sharing\" width=100 height=100>""", unsafe_allow_html=True)
+st.markdown("""<img src="https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/python_t.png" width=100 height=100>""", unsafe_allow_html=True)
 # st.write("""<img src="https://www.dropbox.com/scl/fi/pg3itvyn0yxth9kvafd3y/sklearn.png?rlkey=imt8i5kvs32b5axk7hgtutm8z&dl=0">""", unsafe_allow_html=True)
 
 
