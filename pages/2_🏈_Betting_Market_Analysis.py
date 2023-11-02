@@ -16,13 +16,18 @@ local_css("style/style.css")
 
 
 def show_logo(name: str, width: int=100, height: int=100):
-    st.write(f'<img src="{logos[name]}"; width={width}; height={height}>', unsafe_allow_html=True)
+    st.markdown(f'''<img src="{logos[name]}" width={width} height={height}>''', unsafe_allow_html=True)
 
+# st.markdown(f'''<img src="{logos['python']}">''', unsafe_allow_html=True)
+# st.markdown(f'''<img src=\"{logos['python']}\">''', unsafe_allow_html=True)
+# st.markdown(f'''<img src={logos['python']}>''', unsafe_allow_html=True)
 
+# res = f'''<img src={logos['python']}>'''
+# st.markdown(res, unsafe_allow_html=True)
 # st.write("""<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*cyXCE-JcBelTyrK-58w6_Q.png" width=200 height=100>""", unsafe_allow_html=True)
 
-st.markdown("""<img src="https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/python_t.png" width=100 height=100>""", unsafe_allow_html=True)
-# st.write("""<img src="https://www.dropbox.com/scl/fi/pg3itvyn0yxth9kvafd3y/sklearn.png?rlkey=imt8i5kvs32b5axk7hgtutm8z&dl=0">""", unsafe_allow_html=True)
+# st.markdown("""<img src="https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/python_t.png" width=100 height=100>""", unsafe_allow_html=True)
+
 
 
 st.title("Analytical NFL Betting Market Analysis")
@@ -45,35 +50,36 @@ st.header("Project Information")
 # st.table(df)
 
 with st.container():
-    st.subheader('⚒️ Skills')
+    st.subheader('Platforms Used')
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
     with col1:
-        show_logo('python')
+        show_logo('python', width=100, height=50)
     with col2:
-        st.write(logos['pandas'], unsafe_allow_html=True)
+        show_logo('pandas', width=100, height=50)
     with col3:
-        st.write(logos['numpy'], unsafe_allow_html=True)
+        show_logo('sklearn', width=100, height=50)
     with col4:
-        st.write(logos['sklearn'], unsafe_allow_html=True)
+        show_logo('numpy', width=100, height=50)
     with col1:
-        st.write(logos['xgboost'], unsafe_allow_html=True)
+        show_logo('selenium', width=100, height=50)
     with col2:
-        st.write(logos['selenium'], unsafe_allow_html=True)
+        show_logo('crontab', width=100, height=50)
     with col3:
-        st.write(logos['matplotlib'], unsafe_allow_html=True)
+        show_logo('sql', width=100, height=50)
     with col4:
-        st.write(logos['plotly'], unsafe_allow_html=True)
+        show_logo('matplotlib', width=100, height=50)
     # with col1:
-    #     st.write(logos['xgboost'], unsafe_allow_html=True)
+        # show_logo('python', width=100, height=50)
     # with col2:
-    #     st.write(logos['selenium'], unsafe_allow_html=True)
+        # show_logo('python', width=100, height=50)
     # with col3:
-    #     st.write(logos['matplotlib'], unsafe_allow_html=True)
+        # show_logo('python', width=100, height=50)
     # with col4:
-    #     st.write(logos['plotly'], unsafe_allow_html=True)
+        # show_logo('python', width=100, height=50)
 
 
 
+    # st.subheader('⚒️ Skills')
 
 
 
