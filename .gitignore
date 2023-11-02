@@ -1,5 +1,6 @@
 ignore_me/
 .vscode/
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
