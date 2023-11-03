@@ -74,7 +74,7 @@ class PageLayout():
             md_skills = """
             Data gathering was extensive and done via multiple approaches for multiple sources.  For some, direct acces via the `requests` library was possible.  For others, backend JavaScript prevented direct scraping and more intricate methods involving comment tags was required.  Last, some sources required logging in and maintaining an active browser session, so `selenium` was used to crawl the web sites.
 
-            Processing and warehousing 
+            Data storage was done by ingesting the scraped CSVs into a Postgres database.
             """
 
             st.markdown(md_skills)
