@@ -7,7 +7,7 @@
 
 /* Style hyperlinks*/
 a{
-  display: block; 
+  /* display: block;  */
   color:#2e9aff !important;
   font-weight: bold;
 }
@@ -61,12 +61,12 @@ header {visibility: hidden;}
 /* a:link , a:visited{
   color: blue;
   text-decoration: underline;
-} */
+} */ */
 
-/* a:hover,  a:active {
+a:hover,  a:active {
   color: red;
   text-decoration: underline;
-} */
+}
 
 .footer {
   position: fixed;

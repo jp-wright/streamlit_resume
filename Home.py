@@ -14,6 +14,7 @@ from langchain.chat_models import ChatOpenAI
 
 st.set_page_config(page_title="Jonpaul Wright's Portfolio", layout="wide", page_icon='🤓')
 
+# st.sidebar.markdown('***')
 
 
 # -----------------  chatbot  ----------------- #
