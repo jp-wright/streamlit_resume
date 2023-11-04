@@ -51,7 +51,7 @@ logos = {
     'numpy': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/numpy_t.png',
     'pandas': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/pandas_t.png',
     'plotly': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/plotly_t.png',
-    'postgres': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/postgres_t.jpg',
+    'postgres': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/postgres_t.png',
     'pgadmin': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/pgadmin_t.png',
     'prophet': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/prophet_t.png',
     'pyspark': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/pyspark_t.png',
