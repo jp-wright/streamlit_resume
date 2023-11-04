@@ -25,8 +25,8 @@ info = {
 
 endorsements = {
     "img1": "https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/endorsement/jpw_endorsement_bvh.png",
-    "img2": "https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/endorsement/jpw_endorsement_eg.jpg",
-    "img3": "https://user-images.githubusercontent.com/14065301/278880247-048908a7-fa09-4aa3-8723-d2c4cbb0b3da.png"
+    "img2": "https://user-images.githubusercontent.com/14065301/278880247-048908a7-fa09-4aa3-8723-d2c4cbb0b3da.png",
+    "img3": "https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/endorsement/jpw_endorsement_eg.jpg",
 }
 
 
@@ -71,3 +71,12 @@ logos = {
     'teradata': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/logos/teradata_t.png',
     'xgboost': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/logos/xgboost_t.png',
     }
+
+
+nfl_model = {
+    'pca': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/nfl_model/3D_PCA.gif',
+    'tsne': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/nfl_model/4wayGameTypeClusterTSNE.gif',
+    'wins': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/nfl_model/72_to_81_max_None_800x800.gif',
+    'gp': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/nfl_model/GamesPlayed-PredConf.png',
+
+}

@@ -1,6 +1,6 @@
 import streamlit as st
 import base64
-from constant import *
+from utils.constant import *
 
 def local_css(file_name):
     with open(file_name) as f:

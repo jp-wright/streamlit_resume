@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from constant import *
+from utils.constant import *
 
 def local_css(file_name):
     with open(file_name) as f:

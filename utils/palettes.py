@@ -1,7 +1,6 @@
 # All from images at https://sophisticated-palette.streamlit.app/
 
 ###### Light to Dark
-
 ## Grey
 modern_egg_bath =       ['#f9fbf8', '#d7d8de', '#efea88', '#b7bfc7', '#8ba8bc', '#868d91', '#48443e']
 grey_brown_bath1 =      ['#f8fbf9', '#e3e6de', '#c7ccc8', '#aeb0ab', '#dca952', '#7e603d', '#37191b']
@@ -63,3 +62,6 @@ fft_earths =            ['#e2e0db', '#c1c3b8', '#9c8b77', '#585049', '#271711']
 fft_riovanes_inside =   ['#faecba', '#cea780', '#9a6f51', '#0f2fa4', '#523735', '#2d1719', '#030001']
 fft_riovanes_art =      ['#f0fbd1', '#8bc8c3', '#436cb4', '#b47020', '#4f4f5d', '#412b23', '#1c0b0c']
 fft_finath =            ['#d5d7c1', '#85abad', '#0a65a9', '#6b7c6d', '#565d24', '#343c13', '#080b03']
+
+
+streamlit_blue = '#64B6FC'

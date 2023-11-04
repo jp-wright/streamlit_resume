@@ -5,8 +5,8 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from streamlit_timeline import timeline
 import streamlit.components.v1 as components
-from constant import *
-from palettes import *
+from utils.constant import *
+from utils.palettes import *
 from PIL import Image
 from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
 import openai
@@ -239,7 +239,7 @@ with st.container():
             /* Fading animation */
             .fade {{
             animation-name: fade;
-            animation-duration: 4s;
+            animation-duration: 6s;
             }}
 
             @keyframes fade {{
