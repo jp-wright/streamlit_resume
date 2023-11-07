@@ -16,8 +16,8 @@ class PageLayout():
         # st.sidebar.markdown(info['Photo'], unsafe_allow_html=True)
         self.intro()
         self.project_info()
-        # self.conclusion()
-        # self.gallery()
+        self.conclusion()
+        self.gallery()
         self.md_guide()
 
 
@@ -31,12 +31,12 @@ class PageLayout():
         # gradient(fft_finath[0], fft_finath[1], fft_finath[2], '#fcfbfb', f"NFL Automated Bet-Making Model 🏈", "Can profitable wagers be automated?", 27)
         # st.title("NFL Automated Bet-Making Model")
         md_intro = """
-        Jonpaul helped improve a large, national telecom client's churn prediction by 42% (relative) by builing and managing two model pipelines. The increase in churn prediction accuracy led to two-year contract being extended an additional year three times, for a total of three extra years.  Jonpaul was also instrumental in porting the data pipeline to Apache Hive from an decommissioned database.  Jonpaul's work addressed the client's asks: 
+        Jonpaul helped improve a large, national telecom client's churn prediction by ~42% (relative) by builing and managing two model pipelines. The increase in churn prediction accuracy led to the initial two-year contract being extended an additional year three times, for a total of three extra years.  Jonpaul was also instrumental in porting the data pipeline to Apache Hive from an decommissioned database.  Jonpaul's work addressed the client's asks: 
         
-        1. Predict client's monthly churn in 97 separate geographical areas.
+        1. Predict client's monthly churn in 97 separate geographical areas in up to 17 different sub-lines/carriers.
         2. Predict competitor's market presence and churn in those same areas.
 
-        Jonpaul's responsibilities included data ingestion, pipeline construction, unit testing, model creation, validation and drift monitoring, and dashboard updating for internal and external reporting.  Jonpaul also presented in person for two annual reviews at client headquarters.
+        Jonpaul's responsibilities included data ingestion, pipeline construction, unit testing, model creation, automation of validation and drift monitoring, and dashboard updating for internal and external reporting.  Jonpaul also presented in person for two annual reviews at client headquarters.
 
         <BR>
         """
@@ -91,7 +91,7 @@ class PageLayout():
 
             md_gather = f"""
             ##### <font color={subheading_blue}>Data Gathering</font>
-            Internal data was provided by client, separated by geography. Public data was used to model competitor activity. 
+            Internal data was provided monthly by client, separated by geography. Various sources of public data were used to model competitor activity. 
             """
 
             md_storage = f"""
@@ -111,7 +111,7 @@ class PageLayout():
 
             md_model = f"""
             ##### <font color={subheading_blue}>Model Building</font>
-            `Regularized linear regression` and `ensemble tree` models were used.  Model performance was monitored automatically to prevent `drift` and reported if found.  Final forecasts were a mixture of the models' outputs, automatically weighted by historical accuracy for the period being predicted. 
+            `Regularized linear regression` and `ensemble tree` models were used.  Model performance was monitored automatically to prevent `drift` and reported if found.  Final forecasts were a mixture of the models' outputs, automatically weighted by historical accuracy for the period being predicted.  Larger markets were more consistent while smaller markets occasionally proved statistically volatile and more challenging to forecast.  Another challenge was changing of inputs at some point in the project, as the methodology of attributing certain gains or losses by the client evolved, causing Jonpaul and team to retroactively update historical forecasts from "day 0" using the new methodology -- a much hairier task than it might sound.
             """
 
             md_res = f"""
@@ -160,11 +160,13 @@ class PageLayout():
             st.header('✅ Conclusion')
 
             md_conc = """
-            The client used the model for betting during the active NFL season following completion of the project.  Over the course of a season the model showed repeatable profitability with fixed-amount wagering.  Results could vary greatly depending on amount wagered and odds of wager.  Further work could be done with newer metrics and refined modeling to improve the model further.  
-            
-            One uphill battle is the widespread use of models and analytics has made the betting market more efficient, reducing the margin for profitability and total count of games which are inefficiently priced.  
-            
-            The biggest inefficiences still remaining revolve around (1) publicly favored teams that skew the betting line artificially, (2) specific team vs. team matchup at a player and scheme level, and (3) impact (or lack thereof) of injuries on a given matchup.
+            Jonpaul and team were able to take a pipeline that consisted of spaghetti code and projections based off dated values and turn it into a heavily-automated and self-monitoring production-level service that brought real value to the telecom client.
+
+            Multiple sub-lines / carriers were modeled and monthly national forecasts ranged from around +5\% to + 60\% increase in churn prediction relative accuracy.  The three most important carrier lines were improved around +42\% relative accuracy in aggregate.  
+
+            The initial contract of two years was ultimately extended three additional years as the client found real value in the advanced forecasting provided by our team and routinely compared their internal findings with our team's in monthly reporting video calls.
+
+            Technical challenges of porting the entire pipeline and data archives to a new database, re-forecasting the entire prediction history using new inputs and business rules, explaining predictions for all markets, and being able to procure externally-sourced data to make forecasts for industry competitors were all obstacles our team overcame in order to successfully deliver for the client.
             """
             st.markdown(md_conc)
 
@@ -178,17 +180,14 @@ class PageLayout():
             with col1:
                 show_img(telecom['churn2'], width=450, height=450, hover='Churn geography', caption='Representative image only [not my actual dashboard, though very similar].')
             with col2:
-                show_img(nfl_model['tsne'], width=450, height=450, hover='t-SNE', caption='t-SNE eventually shows four distinct clusters of game type.')
-            # with col1:
-            #     show_img(nfl_model['gp'], width=450, height=450, hover='Prediction Confidence', caption='Do more games played increases prediction confidence?')
-            # with col2:
-            #     show_img(nfl_model['wins'], width=450, height=450, hover='Winning bets', caption='Automated betting model tracks its results.')
+                show_img(telecom['sql_query'], width=450, height=450, hover='SQL pipeline', caption='One query in a 1000+ line series of SQL queries to generate some metrics.')
 
 
 
 
 
     def md_guide(self):
+        st.markdown('<br><br><br>', unsafe_allow_html=True)
         ## show the full rendered Markdown...
     #     with open('docs/jp_hive_guide_public.md', 'r') as fname:
     #         st.markdown(fname.readlines(200)[0])
