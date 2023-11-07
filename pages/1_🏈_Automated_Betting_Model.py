@@ -1,9 +1,10 @@
+import pandas as pd
 import streamlit as st
 # import base64
 from utils.constant import *
-import pandas as pd
 from utils.utils import *
-from utils.palettes import streamlit_blue
+from utils.palettes import *
+from utils.image_refs import *
 
 
 ##### Set Style ######
@@ -20,7 +21,13 @@ class PageLayout():
 
 
     def intro(self):
-        st.title("NFL Automated Bet-Making Model")
+        # gradient(airy_bath[2], airy_bath[4], '#383e48', '#fcfbfb', f"NFL Automated Bet-Making Model 🏈", "Can profitable wagers be automated?", 27)
+        gradient(blue_bath1[1], blue_bath1[3], blue_bath1[5], '#fcfbfb', f"NFL Automated Bet-Making Model 🏈", "Can profitable wagers be automated?", 27)
+        # gradient(fft_riovanes_art[0], fft_riovanes_art[2], fft_riovanes_art[5], '#fcfbfb', f"NFL Automated Bet-Making Model 🏈", "Can profitable wagers be automated?", 27)
+
+        # gradient(green_blue_bath1[0], green_blue_bath1[2], '#383e48', '#fcfbfb', f"NFL Automated Bet-Making Model 🏈", "Can profitable wagers be automated?", 27)
+        # gradient(fft_finath[0], fft_finath[1], fft_finath[2], '#fcfbfb', f"NFL Automated Bet-Making Model 🏈", "Can profitable wagers be automated?", 27)
+        # st.title("NFL Automated Bet-Making Model")
         md_intro = """
         Jonpaul built an automated bet-making model that analyzed every NFL game each week and placed bets on games that met a user-defined threshold for win probability based on his comprehensive game matchup model.  Jonpaul worked for a private client on the west coast and handled all aspects of the pipeline, from data gathering, cleaning, prepping, feature engineering, model building and comparison, tuning, validation, reporting, and visualization. 
 
@@ -46,25 +53,25 @@ class PageLayout():
 
         with st.container():
             # st.subheader('💻  Platforms Used')
-            col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
+            col1, col2, col3 = st.columns([1, 1, 1])
             with col1:
                 show_logo('python', width=120, height=70)
             with col2:
                 show_logo('pandas', width=120, height=70)
             with col3:
                 show_logo('sklearn', width=120, height=80)
-            with col4:
-                show_logo('numpy', width=120, height=90)
             with col1:
                 show_logo('selenium', width=120, height=55)
             with col2:
                 show_logo('crontab', width=120, height=80)
             with col3:
                 show_logo('postgres', width=120, height=80)
-            with col4:
-                show_logo('seaborn', width=120, height=55)
-            # with col1:
-                # show_logo('python', width=100, height=50)
+            with col1:
+                show_logo('numpy', width=120, height=90)
+            with col2:
+                show_logo('pytest', width=120, height=80)
+            with col3:
+                show_logo('seaborn', width=120, height=48)
             # with col2:
                 # show_logo('python', width=100, height=50)
             # with col3:
@@ -79,37 +86,37 @@ class PageLayout():
             st.header('⚒️ Skills')
 
             md_domain = f"""
-            ##### <font color={streamlit_blue}>Domain Research</font>
+            ##### <font color={subheading_blue}>Domain Research</font>
             Research was done on the types of common bets offered, their behavior over time, and the market in which they existed.  Aspects of sports gaming such as line movement, the betting public, home-field advantage, the "vig" (vigorish, i.e. a tax), and the numerical system / dictation used to register wagers were all studied and reported on as preparation in understanding what an automated betting model should be able to account for.
             """
 
             md_gather = f"""
-            ##### <font color={streamlit_blue}>Data Gathering</font>
+            ##### <font color={subheading_blue}>Data Gathering</font>
             Data gathering was extensive and done via multiple approaches for multiple sources.  For some, direct acces via the `requests` library was possible.  For others, backend JavaScript prevented direct scraping and more intricate methods involving comment tags was required.  Last, some sources required logging in and maintaining an active browser session, so `selenium` was used to crawl the web sites.  `crontab` was used to schedule the gathering on a weekly basis following each weekend's games and to run the pipeline to update the model.
             """
 
             md_storage = f"""
-            ##### <font color={streamlit_blue}>Data Storage</font>
+            ##### <font color={subheading_blue}>Data Storage</font>
             Storage was done by aggregating many CSVs of similar types into larger DataFrames and ingesting the resulting CSVs into a `PostgreSQL` database.  The sheer number of small, scraped CSVs meant that storing each of them individually as a table in the database would have been wasteful and extracting each with `SQL` could have been tedious.  Since most of the data is historical and does not change, combining the many smaller tables into a few larger ones which get appended to or updated once a week is a good use of storage.
             """
 
             md_clean = f"""
-            ##### <font color={streamlit_blue}>Data Cleaning & Preparation</font>
+            ##### <font color={subheading_blue}>Data Cleaning & Preparation</font>
             Cleaning was extensive, with numerous data entry errors discovered from the various sources.  Some were spelling, some were conflicting dates, and some were mathematical (wrong signs) or missing data.  For all of these data entry errors the correct values were verified by manually looking them up online in separate sources.  A validation script corrected each known error and a `PyTest` script checked new data for potential errors.  For missing data that was not able to be referenced online, data was imputed in appropriate ways, as was class imbalance including via `SMOTE`, to make modeling viable.  
             """
 
             md_eng = f"""
-            ##### <font color={streamlit_blue}>Feature Engineering</font>
+            ##### <font color={subheading_blue}>Feature Engineering</font>
             Comprehensive feature engineering was performed, including `binning`, `normalization`, `clipping`, and `cross-feature interactions`, with engineered features accounting for many of the most impactful during modeling.  Due to the limited history of some of the features (some exist for the entire history of the modern Super Bowl era of the NFL, others existed for only 25 years or so), more recent features being engineered led to a wider, data-rich model input set vs. a longer, data-poor set.  Both were used in all model testing and validation.  
             """
 
             md_model = f"""
-            ##### <font color={streamlit_blue}>Model Building</font>
+            ##### <font color={subheading_blue}>Model Building</font>
             Multiple models, including `regularized regression`, `support vector machine`, `random forest`, and `gradient boosted trees`, were tested and validated using `cross-validation`.  Different variations of input data were available depending on features selected, resulting in different models for different feature sets.  `Exploratory Data Analysis` and `Recursive Feature Elimination` suggested certain feature sets for higher efficacy.  Unsupervised algorithms like `PCA` and `t-SNE` were used to discover possible matchup scenarios or impactful features.  Models were tuned using `exhaustive grid search`.  Results were reported and compared, ultimately leading to a selection of a tuned `XGBoost` model.  
             """
 
             md_res = f"""
-            ##### <font color={streamlit_blue}>Threshold Selection and Result Visualization</font>
+            ##### <font color={subheading_blue}>Threshold Selection and Result Visualization</font>
             Many experiments were performed which examined which win-probability thresholds were commonly 'wise bets' and their results were visualized in GIF form with `matplotlib`, `seaborn`, and `plotly`, showing each successive bet and the amount won or lost over time.  Amount wagered and game choice are the two variables to control for in making wagers.  Results can vary wildly depending on the values chosen.
             """
 
@@ -154,7 +161,7 @@ class PageLayout():
             st.header('✅ Conclusion')
 
             md_conc = """
-            The client was very pleased and used the model for betting during the active NFL season following completion of the project.  Over the course of a season the model showed repeatable profitability with fixed-amount wagering.  Results could vary greatly depending on amount wagered and odds of wager.  Further work could be done with newer metrics and refined modeling to improve the model further.  
+            The client used the model for betting during the active NFL season following completion of the project.  Over the course of a season the model showed repeatable profitability with fixed-amount wagering.  Results could vary greatly depending on amount wagered and odds of wager.  Further work could be done with newer metrics and refined modeling to improve the model further.  
             
             One uphill battle is the widespread use of models and analytics has made the betting market more efficient, reducing the margin for profitability and total count of games which are inefficiently priced.  
             
