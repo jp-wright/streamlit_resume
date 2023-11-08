@@ -31,7 +31,8 @@ class PageLayout():
         # gradient(fft_finath[0], fft_finath[1], fft_finath[2], '#fcfbfb', f"NFL Automated Bet-Making Model 🏈", "Can profitable wagers be automated?", 27)
         # st.title("NFL Automated Bet-Making Model")
         md_intro = """
-        Jonpaul helped improve a large, national telecom client's churn prediction by ~42% (relative) by builing and managing two model pipelines. The increase in churn prediction accuracy led to the initial two-year contract being extended an additional year three times, for a total of three extra years.  Jonpaul was also instrumental in porting the data pipeline to Apache Hive from an decommissioned database.  Jonpaul's work addressed the client's asks: 
+        <BR>
+        Jonpaul was lead data scientist on a team that helped improve a large, national telecom client's churn prediction by ~42% (relative) by builing and managing two model pipelines. The increase in churn prediction accuracy led to the initial two-year contract being extended an additional year three times, for a total of three extra years.  Jonpaul was also instrumental in porting the data pipeline to Apache Hive from an decommissioned database.  Jonpaul's work addressed the client's asks: 
         
         1. Predict client's monthly churn in 97 separate geographical areas in up to 17 different sub-lines/carriers.
         2. Predict competitor's market presence and churn in those same areas.
@@ -86,27 +87,27 @@ class PageLayout():
 
             md_domain = f"""
             ##### <font color={subheading_blue}>Domain Research</font>
-            Understanding the client's customer retention expectations in key geographic regions was central to evaluating projections.  Additionally, understanding the telecom industry write large, recent trends nationally, and how business rules of customer attribution -- which might have lag times -- impact source data were essential to successful product delivery.
+            Understanding the client's customer retention expectations in key geographic regions was central to evaluating projections.  Additionally, studying the telecom industry writ large, recent trends nationally, and how `business rules` of customer attribution -- which might have lag times -- impact source data were essential to successful product delivery.
             """
 
             md_gather = f"""
             ##### <font color={subheading_blue}>Data Gathering</font>
-            Internal data was provided monthly by client, separated by geography. Various sources of public data were used to model competitor activity. 
+            Internal data was provided monthly by client, showing customer metrics and separated by geography. Various sources of public data were used to model competitor activity. 
             """
 
             md_storage = f"""
             ##### <font color={subheading_blue}>Data Storage</font>
-            Files were delivered as CSVs which were loaded into a database.  Historical data was preserved.  An IBM Nettezza database was used initially.  Upon decomission, a Hive database was used, for which the data pipeline had to be ported.  Apart from a data architect, no one on the project had experience with Hive, requiring Jonpaul to write a how-to guide for the team as well as Python modules allowing th team to interface with the Hive database for their parts of the workflow.
+            Files were delivered as CSVs which were loaded into our database. An IBM Nettezza (`SQL`) database was used initially, but upon decomission a `Hive` database was used, for which the data pipeline had to be ported.  Apart from a data architect, no one on the project had experience with Hive, requiring Jonpaul to write a `how-to guide` for the team as well as `Python modules` allowing the team to interface with the Hive database for their parts of the workflow.
             """
 
             md_clean = f"""
             ##### <font color={subheading_blue}>Data Cleaning & Preparation</font>
-            Cleaning was fairly minimal as the internal data provided by the client tended to be well-maintained.  Nonetheless, data validation scripts were used to ensure data integrity at key junctures throughout the pipeline.
+            Cleaning was fairly minimal as the internal data provided by the client tended to be well-maintained.  Nonetheless, data validation scripts via `PyTest` were used to ensure data integrity at key junctures throughout the pipeline.
             """
 
             md_eng = f"""
             ##### <font color={subheading_blue}>Feature Engineering</font>
-            Feature expansion was centered around seasonal changes, geographic trends, and running average trends. Competitor data was quarterly in periodicity, requiring it to be disaggregated into monthly values.  For competitor data that was not geographically separated, geographical values were determined by researching past publically stated customer numbers in given metro areas and comparing those to changes in the same areas for the client.
+            Feature expansion was centered around `seasonal changes`, `geographic trends`, and `varying-time window averages`. Competitor data was quarterly in periodicity, requiring it to be disaggregated into monthly values.  For competitor data that was not geographically separated, geographical values were determined by researching past publically stated customer numbers in given metro areas and evaluating those compared to changes in the same areas for the client.
             """
 
             md_model = f"""
@@ -128,29 +129,6 @@ class PageLayout():
             st.markdown(md_eng, unsafe_allow_html=True)
             st.markdown(md_model, unsafe_allow_html=True)
             st.markdown(md_res, unsafe_allow_html=True)
-
-
-
-            # platforms = ['Selenium']
-            # skills = ['Automated Web Scraping']
-            # purposes = ['Acquire detailed NFL data']
-            # skills_frame = {'Platform': platforms, 'Skill': skills, 'Purpose': purposes}
-            # df = pd.DataFrame.from_dict(skills_frame, orient='columns').set_index('Platform')
-
-            # mkdown = """
-            #     Tool/Platform     | Skills                    | Purpose
-            #     ------------------|---------------------------|-------------------------------------------------
-            #     Selenium          | Web Scraping              | Some data sources required active session logins.
-            #     Requests          | Web Scraping              | Basic REST data acquisition from some sites.
-            #     crontab           | Automation / CICD         | Schedule entire project pipeline to run automatically.
-            #     Python            | Coding                    | Pipeline and modeling done in Python.
-            #     ![pandas](https://pandas.pydata.org/static/img/pandas_secondary.svg) Pandas/Numpy      | Data Manipulation         | Extensive data work, from custom table creation to model prep.
-            #     Sci-kit Learn     | Machine Learning          | Everything from cluster analysis to boosted gradient trees.
-            #     Matplotlib/Seaborn/Plotly | Visualization     | Extensive visualizations of market history and model results.
-
-
-            # """
-            # st.markdown(mkdown)
 
 
 
@@ -178,9 +156,9 @@ class PageLayout():
 
             col1, col2 = st.columns([1, 1])
             with col1:
-                show_img(telecom['churn2'], width=450, height=450, hover='Churn geography', caption='Representative image only [not my actual dashboard, though very similar].')
-            with col2:
-                show_img(telecom['sql_query'], width=450, height=450, hover='SQL pipeline', caption='One query in a 1000+ line series of SQL queries to generate some metrics.')
+                show_img(telecom['churn2'], width=650, height=450, hover='Churn geography', caption='Representative image only [not my actual dashboard, though very similar].')
+            with col1:
+                show_img(telecom['sql_query'], width=450, height=450, hover='SQL pipeline', caption='One query in a 1000+ line series of SQL queries to generate key metrics.')
 
 
 

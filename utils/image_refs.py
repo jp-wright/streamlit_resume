@@ -49,12 +49,13 @@ nfl_model = {
 }
 
 telecom = {
-    'churn1': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/nfl_model/churn1.png',
-    'churn2': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/nfl_model/churn2.png',
-    'churn2': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/nfl_model/sql_query.png',
+    'churn1': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/telecom/churn1.png',
+    'churn2': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/telecom/churn2.png',
+    'sql_query': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/telecom/sql_query.png',
 }
 
 pharma = {
+    'mc_logit': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/pharma/mc_logit.png',
 
 }
 

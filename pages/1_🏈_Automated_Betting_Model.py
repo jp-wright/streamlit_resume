@@ -29,11 +29,12 @@ class PageLayout():
         # gradient(fft_finath[0], fft_finath[1], fft_finath[2], '#fcfbfb', f"NFL Automated Bet-Making Model 🏈", "Can profitable wagers be automated?", 27)
         # st.title("NFL Automated Bet-Making Model")
         md_intro = """
+        <BR>
         Jonpaul built an automated bet-making model that analyzed every NFL game each week and placed bets on games that met a user-defined threshold for win probability based on his comprehensive game matchup model.  Jonpaul worked for a private client on the west coast and handled all aspects of the pipeline, from data gathering, cleaning, prepping, feature engineering, model building and comparison, tuning, validation, reporting, and visualization. 
 
         <BR>
 
-        Please see the full-length, technical, and illustrated [research article](https://github.com/jp-wright/nfl_betting_market_analysis) 👀 📝!    
+        Please see the full-length, technical, and illustrated [research article](https://github.com/jp-wright/nfl_betting_market_analysis)!    
 
         <BR> 
 
@@ -72,12 +73,6 @@ class PageLayout():
                 show_logo('pytest', width=120, height=80)
             with col3:
                 show_logo('seaborn', width=120, height=48)
-            # with col2:
-                # show_logo('python', width=100, height=50)
-            # with col3:
-                # show_logo('python', width=100, height=50)
-            # with col4:
-                # show_logo('python', width=100, height=50)
 
 
         with st.container():
@@ -87,7 +82,7 @@ class PageLayout():
 
             md_domain = f"""
             ##### <font color={subheading_blue}>Domain Research</font>
-            Research was done on the types of common bets offered, their behavior over time, and the market in which they existed.  Aspects of sports gaming such as line movement, the betting public, home-field advantage, the "vig" (vigorish, i.e. a tax), and the numerical system / dictation used to register wagers were all studied and reported on as preparation in understanding what an automated betting model should be able to account for.
+            Industry research was done on the types of common bets offered, their behavior over time, and the market in which they existed.  Aspects of sports gaming such as `line movement`, the `betting public`, `home-field advantage`, the "`vig`" (vigorish, i.e. a tax), `historical performance`, and the `numerical system` / dictation used to register wagers were all studied and reported on as preparation in understanding what an automated betting model should be able to account for.
             """
 
             md_gather = f"""
@@ -97,7 +92,7 @@ class PageLayout():
 
             md_storage = f"""
             ##### <font color={subheading_blue}>Data Storage</font>
-            Storage was done by aggregating many CSVs of similar types into larger DataFrames and ingesting the resulting CSVs into a `PostgreSQL` database.  The sheer number of small, scraped CSVs meant that storing each of them individually as a table in the database would have been wasteful and extracting each with `SQL` could have been tedious.  Since most of the data is historical and does not change, combining the many smaller tables into a few larger ones which get appended to or updated once a week is a good use of storage.
+            Storage was handled by aggregating many CSVs of similar types into larger DataFrames and ingesting the resulting CSVs into a `PostgreSQL` database.  The sheer number of small, scraped CSVs meant that storing each of them individually as a table in the database would have been wasteful and extracting each with `SQL` could have been tedious.  Since most of the data is historical and does not change, combining the many smaller tables into a few larger ones which get appended to or updated once a week is a good use of storage.
             """
 
             md_clean = f"""
