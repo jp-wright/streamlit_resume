@@ -22,11 +22,6 @@ class PageLayout():
 
     def intro(self):
         gradient(blue_bath1[1], blue_bath1[3], blue_bath1[5], '#fcfbfb', f"Pharmaceutical Fraud Detection 💊", "Catching Bad Actors with Good Data", 27)
-        
-
-        show_img(signals['us_geo_growth'], width=650, height=450, hover='', caption='Example of the type of geo-based activity that signals offered.')
-        show_img(signals['kpmg_signals'], width=650, height=450, hover='', caption='Example of the type of geo-based activity that signals offered.')
-        show_img(telecom['churn2'], width=650, height=450, hover='Churn geography', caption='Representative image only [not my actual dashboard, though very similar].')
 
         md_intro = """
         <BR>
@@ -135,7 +130,7 @@ class PageLayout():
 
             col1, col2 = st.columns([1, 1])
             with col1:
-                show_img(signals['us_geo_growth'], width=650, height=450, hover='', caption='Example of the type of geo-based activity that signals offered.')
+                show_img(signals['us_geo_growth'], width=650, height=450, hover='asd', caption='Example')
             with col1:
                 show_img(signals['kpmg_signals'], width=450, height=250, hover='', caption='')
            

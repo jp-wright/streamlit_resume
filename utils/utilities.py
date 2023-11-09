@@ -27,7 +27,7 @@ def gradient(grad_clr1, grad_clr2, title_clr, subtitle_clr, title, subtitle, sub
                 f'<span style="color:{subtitle_clr};font-size:{subtitle_size}px;">{subtitle}</span></h1>', 
                 unsafe_allow_html=True)
 
-def show_img(url: str, width: int=100, height: int=100, hover: Optional[str]=None, caption: Optional[str]=None, link: bool=False, spacer: Optional[int]=1):
+def show_img(url: str, width: int=100, height: int=100, hover: Optional[str]='', caption: Optional[str]=None, link: bool=False, spacer: Optional[int]=1):
     """
     """    
     img = f'''<img src="{url}" width={width} height={height}>'''
