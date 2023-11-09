@@ -59,7 +59,9 @@ pharma = {
 
 }
 
-signals_repo = {
+signals = {
+    'kpmg_signals': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/pharma/kpmg_signals.png',
+    'us_geo': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/pharma/us_geo_growth.png',
 
 }
 

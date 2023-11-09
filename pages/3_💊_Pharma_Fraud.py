@@ -133,14 +133,10 @@ class PageLayout():
 
             col1, col2 = st.columns([1, 1])
             with col1:
-                show_img(nfl_model['mc_logit'], width=650, height=450, hover='multiclass logit', caption='Example of model output for "no", "potentially", and "likely" fraudulent activity.')
+                show_img(pharma['mc_logit'], width=650, height=450, hover='multiclass logit', caption='Example of model output for "no", "potentially", and "likely" fraudulent activity.')
            
 
 
-
-
-
-    # {show_img(nfl_model['tsne'], width=200, height=200)}
 
 
 PageLayout()

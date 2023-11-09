@@ -152,7 +152,8 @@ class PageLayout():
                 st.subheader('📌 Career Snapshot')
 
                 # load data
-                with open('example.json', "r") as f:
+                # with open('timeline/example.json', "r") as f:
+                with open('timeline/jp_timeline.json', "r") as f:
                     data = f.read()
 
                 # render timeline

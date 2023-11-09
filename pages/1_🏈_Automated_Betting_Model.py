@@ -73,6 +73,12 @@ class PageLayout():
                 show_logo('pytest', width=120, height=80)
             with col3:
                 show_logo('seaborn', width=120, height=48)
+            with col1:
+                show_logo('xgboost', width=120, height=68)
+            with col2:
+                show_logo('pgadmin', width=120, height=68)
+            with col2:
+                show_logo('bash', width=120, height=68)
 
 
         with st.container():

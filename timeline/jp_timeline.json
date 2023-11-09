@@ -1,0 +1,250 @@
+{
+    "title": {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/1Ct0zT6keClAvlBU1zeVEIMqsespg9EVg\/view?usp=sharing",
+            "caption": "",
+            "credit": ""
+        },
+        "text": {
+            "headline": "Jonpaul's Data Science Timeline",
+            "text": "Here's an interactive timeline of Jonpaul's data science experience."
+        }
+    },
+
+    "events": [
+        {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/14H9ZjbKeDgak9gvIbvddSpoj66aUUPzN\/view?usp=share_link",
+            "caption": "Teaching Python and Data Science to eager students."
+        },
+        "start_date": {
+            "year": "2017",
+            "month": "5"
+        },
+        "end_date": {
+            "year": "2018",
+            "month": "1"
+        },
+        "text": {
+            "headline": "Galvanize, Inc.: Python Data Science Instructor",
+            "text": "Jonpaul taught Python for Data Science, including Python fundamentals, data and modeling fundamentals, basic algorithms, and ending with visualization."
+        }
+    },
+    {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/1zQAyMaC-XjiYW8zyGjnQ4C05SZTxv0H6\/view?usp=sharing",
+            "caption": "This was a rapid response and plot generation product for the banking sector."
+        },
+        "start_date": {
+            "year": "2017",
+            "month": "7"
+        },
+        "end_date": {
+            "year": "2017",
+            "month": "11"
+        },
+        "text": {
+            "headline": "Pellucid Analytics: Python Developer",
+            "text": "Jonpaul helped increase the speed of data retrieval and downstream image generation for clients through codebase optimization and appropriate data aggregation.  He also decreased pipeline downtime by creating tests and automating reporting."
+        }
+    },
+    {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/1HObuRZCDSu8MHEoq2tI9yovTGnXro-0Q\/view?usp=sharing",
+            "caption": ""
+        },
+        "start_date": {
+            "year": "2018",
+            "month": "1"
+        },
+        "end_date": {
+            "year": "2021",
+            "month": "11"
+        },
+        "text": {
+            "headline": "Data Modeler & Engineer at KPMG",
+            "text": "Jonpaul worked as a data scientist and engineer with international clients in the telecom, pharmaceutical, insurance, HR, and banking industries. He was also an active campus recruiter for the Midwest as well as an active data science technical interviewer."
+        }
+    },
+    {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/13oqSrMfPcmYT8MG1K728SZp4u73EBMHq\/view?usp=share_link",
+            "caption": "Geo-based customized signals for clients to incorporate into their own machine learning models and analysis."
+        },
+        "start_date": {
+            "year": "2018",
+            "month": "1"
+        },
+        "end_date": {
+            "year": "2018",
+            "month": "8"
+        },
+        "text": {
+            "headline": "KPMG: Signals Repository - Python Specialist",
+            "text": "Jonpaul was the lead Python developer on KPMG's signals repository, helping create custom geo-based functions that offered novel insights for clients, allowing them to leverage the Signals Repository to bolster their own modeling and analytics."
+        }
+    },
+    {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/1wjbvQdjN0AS6l-JQHdtXfjWBtoiIphaI\/view?usp=sharing",
+            "caption": "Understanding how different markets had distinct customer behavior was important for this telecom client in planning expectations for marketing spend and customer churn as well as anticipating competitor gains or losses." 
+        },
+        "start_date": {
+            "year": "2018",
+            "month": "4"
+        },
+        "end_date": {
+            "year": "2021",
+            "month": "1"
+        },
+        "text": {
+            "headline": "KPMG Telecom Client: Geo-based Churn Prediction - Lead Data Scientist",
+            "text": "Jonpaul was lead data scientist on a churn prediction project that expanded into also predicting competitor churn, all in 97 separate geographic zones across the country.  The result was upward of an 11% improvement in monthly customer churn."
+        }
+    },
+    {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/1d7tabLFw-ySz76U06WVq0NxZmpToYsa6\/view?usp=sharing",
+            "caption": "Porting SQL pipeline to Hive and integrating the Python pipeline with it."
+        },
+        "start_date": {
+            "year": "2019",
+            "month": "8"
+        },
+        "end_date": {
+            "year": "2019",
+            "month": "11"
+        },
+        "text": {
+            "headline": "KPMG Telecom Client: Database & Pipeline Migration - Data Engineer",
+            "text": "Jonpaul led the migration of the existing Python and SQL pipeline from an IBM database to using Hive.  This included porting the SQL to HQL, creating new Python modules to programatically interface with the Hive database, and writing a large how-to guide for the team on using Hive in the context of the pipeline."
+        }
+    },
+    {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/1kcPNi4IPKjdNEXkzQwQLr_Xo-xsRSTPN\/view?usp=sharing",
+            "caption": "Deriving value by understanding the client's workforce. Trends for early rockstars and for pending departures were especially pronounced and actionable."
+        },
+        "start_date": {
+            "year": "2018",
+            "month": "8"
+        },
+        "end_date": {
+            "year": "2018",
+            "month": "12"
+        },
+        "text": {
+            "headline": "KPMG Financial Client: HR Analytics - Asst. Manager",
+            "text": "Jonpaul was assistant project manager on a comprehensive HR analytics project which weaved together multiple internal sources to provide composite scores of employee efficiency, retention probability, and misconduct."
+        }
+    },
+    {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/18_qoUo8ir3EVcv7GOtXVpr_mpxqlAEjQ\/view?usp=sharing",
+            "caption": "The NLP pipeline for the insurance client's web app"
+        },
+        "start_date": {
+            "year": "2019",
+            "month": "1"
+        },
+        "end_date": {
+            "year": "2019",
+            "month": "9"
+        },
+        "text": {
+            "headline": "KPMG Insurance Client: NLP Web App - Project Manager",
+            "text": "Jonpaul was project manager on an KPMG-proprietary NLP web app project designed to accept PDFs from the insurance client, parse them for specific information and formulas, and present them in the app for review, confirmation, and assignment. Jonpaul managed a European front-end team and a domestic data science \/ backend team."
+        }
+    },
+    {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/1N-6kXUJrTHbXmvkGdbVq3t588AQbqX23\/view?usp=sharing",
+            "caption": "<a href=\"https:\/\/www.clickondetroit.com\/news\/local\/2019\/12\/19\/10-people-accused-in-massive-46m-co-pay-fraud-scheme-involving-26-pharmacies-around-metro-detroit\/\" title=\"Fraud Ring Busted in Detroit\">Click here for article: 'Fraud Ring Busted in Detroit'<\/a>"
+        },
+        "start_date": {
+            "year": "2019",
+            "month": "9"
+        },
+        "end_date": {
+            "year": "2021",
+            "month": "11"
+        },
+        "text": {
+            "headline": "KPMG Pharmaceutical Client: Advanced Fraud Detection - Lead Data Scientist",
+            "text": "Jonpaul was lead data scientist for a pharmaceutical client's fraud detection project. Combining both client and third-party data sources for advanced modeling and analysis resulted in average monthly savings of $750,000 ($45M in five years). The best result came when a ring of 10 fraudulent pharmacists were busted for over $46M. [Note: not all $46M was with our pharma client]"
+        }
+    },
+    {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/1JpAnsD2_tafRuEsSkiTdE339GvtWOV5_\/view?usp=sharing",
+            "caption": ""
+        },
+        "start_date": {
+            "year": "2020",
+            "month": "12"
+        },
+        "end_date": {
+            "year": "2021",
+            "month": "2"
+        },
+        "text": {
+            "headline": "KPMG Banking Client: NLP Service - Data Scientist",
+            "text": "Jonpaul was a data scientist on an NLP project for a banking client which sought to prepare the client's contracts for upcoming LIBOR changes."
+        }
+    },
+    {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/1W6txJk6XJRy_kc0PmogF3zK4OFSjsBHG\/view?usp=sharing",
+            "caption": ""
+        },
+        "start_date": {
+            "year": "2021",
+            "month": "8"
+        },
+        "end_date": {
+            "year": "2021",
+            "month": "12"
+        },
+        "text": {
+            "headline": "KPMG Digital Payments Client: Efficiency Planning for Legal Compliance - Data Modeler",
+            "text": "Jonpaul was the lead data modeler (SQL, Terraform) for a digital payments client and helped them to understand inefficiencies in current operations in preparation for upcoming policy changes. "
+        }
+    },
+    {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/1M8YNJmHLswmFFLS-JhOAwViaKuHc95kf\/view?usp=sharing",
+            "caption": "The monthly savings resulting from Jonpaul's improvements to the AWS pipeline."
+        },
+        "start_date": {
+            "year": "2022",
+            "month": "1"
+        },
+        "end_date": {
+            "year": "2022",
+            "month": "12"
+        },
+        "text": {
+            "headline": "Daugherty Business Solutions Healthcare Insurance Client: AWS Pipeline and Modeling - Senior Data Scientist ",
+            "text": "Jonpaul was the senior data scientist with a healthcare insurance client handling their AWS data pipeline for claims from different geographies and medical streams. He ported parts of the pipeline from Pandas to PySpark and did the inverse for other parts.  His focus on data processing optimization led to the client saving over $10,000 monthly and his new approach was subsequently used in other streams."
+        }
+    },
+    {
+        "media": {
+            "url": "https:\/\/drive.google.com\/file\/d\/1YDcd-kR5sTzq_xprA_1eQl9Rwy5_LmeM\/view?usp=sharing",
+            "caption": ""
+        },
+        "start_date": {
+            "year": "2023",
+            "month": "1"
+        },
+        "end_date": {
+            "year": "2023",
+            "month": "5"
+        },
+        "text": {
+            "headline": "Virtuwell: Data Science Engineer",
+            "text": "Jonpaul worked to reduce wasted spending by improving provider staffing assignment via more accurate forecast modeling and a deeper analysis of which medical conditions were likely to be treated easily and which warranted repeat attention."
+        }
+    }
+    ]
+}

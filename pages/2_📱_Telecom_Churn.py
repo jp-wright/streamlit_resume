@@ -72,13 +72,7 @@ class PageLayout():
                 show_logo('pytest', width=120, height=80)
             with col3:
                 show_logo('tableau', width=120, height=45)
-            # with col2:
-                # show_logo('python', width=100, height=50)
-            # with col3:
-                # show_logo('python', width=100, height=50)
-            # with col4:
-                # show_logo('python', width=100, height=50)
-
+   
 
         with st.container():
             st.markdown('<BR>', unsafe_allow_html=True)
