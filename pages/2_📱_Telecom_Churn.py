@@ -2,7 +2,7 @@ import streamlit as st
 import base64
 import pandas as pd
 from utils.constant import *
-from utils.utils import *
+from utils.utilities import *
 from utils.palettes import *
 from utils.image_refs import *
 

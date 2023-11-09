@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 # import base64
 from utils.constant import *
-from utils.utils import *
+from utils.utilities import *
 from utils.palettes import *
 from utils.image_refs import *
 
@@ -83,12 +83,12 @@ class PageLayout():
 
             md_clean = f"""
             ##### <font color={subheading_blue}>Data Cleaning & Preparation</font>
-            Most input data was from published sources and tended to be relatively clean. This was not in the scope of Jonpaul's role.
+            Most input data was from published sources and tended to be relatively clean. Jonpaul ported data cleaning and processing scripts from R to Python as the Signals Repository was a Python-based pipeline.
             """
 
             md_eng = f"""
             ##### <font color={subheading_blue}>Feature Engineering</font>
-            This signals repository consisted of basic (raw) data and more complex, customized signals.  Key signals were engineered by allowing a user to define a specific area (down to the block of a street) for which they wanted to see any number of changes in interactions over time.  Multiple raw signals were used to compmrise information-rich and model-ready signals that clients used in their own data science pipelines.
+            Jonpaul authored scripts which consisted of basic (raw) data and more complex, customized signals.  Key signals were engineered by allowing a user to define a specific area (down to the block of a street) for which they wanted to see any number of changes in interactions over time.  Multiple raw signals were used to compmrise information-rich and model-ready signals that clients used in their own data science pipelines.  
             """
 
             md_model = f"""
@@ -130,9 +130,9 @@ class PageLayout():
 
             col1, col2 = st.columns([1, 1])
             with col1:
-                show_img(signals['mc_logit'], width=650, height=450, hover='multiclass logit', caption='Example of model output for "no", "potentially", and "likely" fraudulent activity.')
+                show_img(signals['us_geo_growth'], width=450, height=450, hover='', caption='Example of the type of geo-based activity that signals offered.')
             with col2:
-                show_img(signals['mc_logit'], width=650, height=450, hover='multiclass logit', caption='Example of model output for "no", "potentially", and "likely" fraudulent activity.')
+                show_img(signals['kpmg_signals'], width=450, height=450, hover='', caption='')
            
 
 

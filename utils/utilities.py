@@ -1,5 +1,5 @@
 import streamlit as st
-import utils.constant as cons
+import utils.image_refs as images
 from typing import Optional
 import requests
 
@@ -47,6 +47,6 @@ def show_img(url: str, width: int=100, height: int=100, hover: Optional[str]=Non
 def show_logo(name: str, width: int=100, height: int=100, spacer: Optional[int]=1):
     """
     """
-    st.markdown(f'''<img src="{cons.logos[name]}" width={width} height={height}>''', unsafe_allow_html=True)
+    st.markdown(f'''<img src="{images.logos[name]}" width={width} height={height}>''', unsafe_allow_html=True)
     if spacer:
         st.markdown("<BR>" * spacer, unsafe_allow_html=True)

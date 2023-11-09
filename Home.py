@@ -11,7 +11,7 @@ import openai
 from langchain.chat_models import ChatOpenAI
 from utils.constant import *
 from utils.palettes import *
-from utils.utils import *
+from utils.utilities import *
 from utils.image_refs import *
 
 
@@ -20,8 +20,8 @@ from utils.image_refs import *
 class PageLayout():
     def __init__(self):
         st.set_page_config(page_title="Jonpaul Wright's Data Portfolio", layout="wide", page_icon='👨🏻‍💻')
-        # local_css("style/style.css")
-        self.show_photo()
+        local_css("style/style.css")
+        # self.show_photo()
         self.intro()
         # self.chatbot_bio()
         self.skills()

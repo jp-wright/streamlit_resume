@@ -25,7 +25,7 @@ logos = {
     'pyspark': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/logos/pyspark_t.png',
     'pytest': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/logos/pytest_t.png',
     'python': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/logos/python_t.png',
-    'r_data': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/logos/r_data_t.png',
+    'r_data': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/logos/r_data_t.jpg',
     'rest_api': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/logos/rest_api_t.png',
     's3': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/logos/s3_t.png',
     'sagemaker': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/logos/sagemaker_t.png',
@@ -61,7 +61,7 @@ pharma = {
 
 signals = {
     'kpmg_signals': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/pharma/kpmg_signals.png',
-    'us_geo': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/pharma/us_geo_growth.png',
+    'us_geo_growth': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/pharma/us_geo_growth.png',
 
 }
 
