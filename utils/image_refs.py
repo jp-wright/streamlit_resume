@@ -55,14 +55,12 @@ telecom = {
 }
 
 pharma = {
-    'mc_logit': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/pharma/mc_logit.png',
-
+    'mc_logit': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/pharma/multiclass_logit.png',
 }
 
 signals = {
-    'kpmg_signals': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/pharma/kpmg_signals.png',
-    'us_geo_growth': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/pharma/us_geo_growth.png',
-
+    'us_geo_growth': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/signals_repo/us_geo_growth.png',
+    'kpmg_signals': 'https://raw.githubusercontent.com/jp-wright/streamlit_resume/main/.github/images/signals_repo/kpmg_signals.png',
 }
 
 insurance_nlp = {
